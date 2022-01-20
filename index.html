@@ -85,14 +85,16 @@
                 <li class="list-group-item"><a href="#" id="btn_alert3">TOPI</a></li>
                 <li class="list-group-item"><a href="#" id="btn_alert4">KAOS KAKI</a></li>
                 <li class="list-group-item">DLL</li>
+                <li class="list-group-item bg-dark"></li>
+                <br />
               </ul>
             </div>
           </div>
           <div class="col-md-8 mb-3">
-            <img src="img/wp1904188-hypervenom-wallpapers.jpg" name="slide" alt="home" width="860" height="450" />
+            <img src="img/wp1904188-hypervenom-wallpapers.jpg" class="img-fluid" name="slide" alt="home" />
           </div>
           <div class="col-md-2">
-            <img src="img/Black-Nike-Wallpaper.jpg" alt="side" width="200" height="450" />
+            <img src="img/Black-Nike-Wallpaper.jpg" alt="side" width="200" height="490" />
           </div>
         </div>
       </div>
@@ -408,14 +410,6 @@
               </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#lariControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#lariControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
     </section>
@@ -460,14 +454,6 @@
               </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#bulutangkisControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#bulutangkisControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
     </section>
@@ -512,14 +498,6 @@
               </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#voliControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#voliControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
     </section>
@@ -557,18 +535,18 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <form>
+            <form name="iniform">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="input_nama" />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="input_email" />
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
+                <textarea class="form-control" id="pesan" rows="3" name="input_pesan"></textarea>
               </div>
               <button type="submit" class="btn btn-primary">Kirim</button>
             </form>
